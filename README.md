@@ -1,4 +1,3 @@
-# LUNA-BOX
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -116,6 +115,14 @@
   .faq-item b { font-size:12px; display:block; }
   .faq-item span { font-size:12px; font-weight:600; color:var(--brown-dark); }
 
+  .social { text-align:center; padding:10px 14px 36px; }
+  .social h4 { font-size:15px; font-weight:900; color:var(--brown-dark); margin-bottom:14px; }
+  .social-btns { display:flex; justify-content:center; gap:14px; flex-wrap:wrap; }
+  .soc { display:flex; align-items:center; gap:8px; padding:11px 18px; border-radius:14px; background:var(--black); color:#fff; text-decoration:none; font-size:14px; font-weight:800; transition:.2s; }
+  .soc svg { width:20px; height:20px; fill:currentColor; }
+  .soc:hover { transform:translateY(-2px); background:var(--brown-dark); }
+  .soc:focus-visible { outline:3px solid var(--brown); outline-offset:2px; }
+
   @media (prefers-reduced-motion: reduce) {
     .gift, .gift-lid, .spark, .intro-text { animation-duration:.01s; animation-delay:0s; }
   }
@@ -184,6 +191,24 @@
       <div class="faq-item"><b>💳 طريقة الدفع؟</b><span>الدفع يد بيد عند استلام طلبيتك وإعادة معاينتها.</span></div>
       <div class="faq-item"><b>🚚 مدة التوصيل؟</b><span>التوصيل سريع من يومين إلى ثلاثة أيام كأقصى حد.</span></div>
     </div>
+  </div>
+</div>
+
+<div class="social">
+  <h4>تابعنا على مواقع التواصل 💗</h4>
+  <div class="social-btns">
+    <a class="soc" href="https://www.instagram.com/luna__pack?xtok=MzF1ZDh3cGk5bWt0" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.1a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>
+      انستغرام
+    </a>
+    <a class="soc" href="https://www.facebook.com/share/1K33qXmHeA/" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.9c0-.9.3-1.5 1.6-1.5h1.6V3.5c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.3H7.6V13h2.7v8h3.2z"/></svg>
+      فيسبوك
+    </a>
+    <a class="soc" href="https://www.tiktok.com/@luna___pack?_r=1&amp;_t=ZS-9ApjTwB0iwS" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 3h-3.2v12.2a2.7 2.7 0 1 1-2.7-2.7c.3 0 .5 0 .8.1V9.3a5.9 5.9 0 1 0 5.1 5.9V8.6a7.4 7.4 0 0 0 4.3 1.4V6.8A4.3 4.3 0 0 1 16.6 3z"/></svg>
+      تيك توك
+    </a>
   </div>
 </div>
 
